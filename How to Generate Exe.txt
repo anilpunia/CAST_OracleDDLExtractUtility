@@ -1,0 +1,19 @@
+pyinstaller --onefile --hidden-import=psycopg2 D:\CAST\Development\VSCode\Generic-Script\Postgres_DDL_generate.py
+ It will generate the exe in user directory at DIST
+ C:\Users\aku\dist
+
+ pyinstaller --name=Oracle_DDL_generate --onefile --collect-data=. D:\CAST\Development\VSCode\Generic-Script\Postgres_DDL_generate.py
+
+
+ pyinstaller --onefile D:\CAST\Development\VSCode\Code-Inspect\LOC-Count.py
+
+***************************************************************************************************************************************************************
+CX_Oracle need Oracle client which is available at https://www.oracle.com/database/technologies/instant-client/downloads.html
+https://www.oracle.com/database/technologies/instant-client/winx64-64-downloads.html 
+
+https://doc-legacy.castsoftware.com/display/TECHNOS/SQL+Analyzer+-+Generate+DDL+for+a+specific+Oracle+schema
+
+***************************************************************************************************************************************************************
+Another tool 
+pip install cx_Freeze
+cxfreeze D:\CAST\Development\VSCode\Generic-Script\Oracle_DDL_generate.py --target-dir D:\CAST\Development\VSCode\Generic-Script\Executable
