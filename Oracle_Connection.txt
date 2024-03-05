@@ -1,6 +1,6 @@
 Enter the database name: orclpdb (Service Name)
 Enter the username: PLSQL_DIAGS_XXL
-Enter the password: cast
+Enter the password: 
 Enter the host: QAPARTPG
 Enter the port: 1521
 Enter the schema name: SCE or PLSQL_DIAGS_XXL
