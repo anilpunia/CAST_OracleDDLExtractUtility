@@ -1,0 +1,60 @@
+create user TESTCAST identified by cast 
+/
+grant connect to TESTCAST
+/
+grant create session to TESTCAST
+/
+grant select on dba_arguments to TESTCAST
+/
+grant select on dba_col_comments to TESTCAST
+/
+grant select on dba_tab_comments to TESTCAST
+/
+/* 
+*   The view dba_mview_comments does not exist on Oracle 9.x, therefore the
+*   following grant should not be executed when running the extraction on Oracle 9i.
+*/
+grant select on dba_mview_comments to TESTCAST
+/
+grant select on dba_coll_types to TESTCAST
+/
+grant select on dba_cons_columns to TESTCAST
+/
+grant select on dba_constraints to TESTCAST
+/
+grant select on dba_db_links to TESTCAST
+/
+grant select on dba_dependencies to TESTCAST
+/
+grant select on dba_ind_columns to TESTCAST
+/
+grant select on dba_ind_expressions to TESTCAST
+/
+grant select on dba_indexes to TESTCAST
+/
+grant select on dba_mviews to TESTCAST
+/
+grant select on dba_object_tables to TESTCAST
+/
+grant select on dba_objects to TESTCAST
+/
+grant select on dba_procedures to TESTCAST
+/
+grant select on dba_sequences to TESTCAST
+/
+grant select on dba_source to TESTCAST
+/
+grant select on dba_synonyms to TESTCAST
+/
+grant select on dba_tab_columns to TESTCAST
+/
+grant select on dba_tables to TESTCAST
+/
+grant select on dba_triggers to TESTCAST
+/ 
+grant select on dba_types to TESTCAST
+/
+grant select on dba_users to TESTCAST
+/
+grant select on dba_views to TESTCAST
+/
